@@ -18,14 +18,15 @@ function Home() {
   };
 
   return (
-    <div className=" no-scrollbar ">
-      <div className="bg-[#00a884] h-[127px] max-w-full "></div>
-      <div className="flex  max-w-full">
+    <div className=" bg-gray-200 ">
+      <div className="bg-[#00a884] h-[127px] max-w-full hidden md:block"></div>
+
+      <div className="flex relative max-w-full md:-mt-[115px] md:ml-[120px] md:mr-[120px] ">
         <div className="bg-[#e9edef]">
           <Header />
-          <div className="flex items-center justify-evenly space-x-2 w-[430.5px] h-[49px] bg-white  mb-[0.5px] ">
+          <div className="flex items-center justify-evenly space-x-2 w-[430.5px]  h-[49px] bg-white  mb-[0.5px] ">
             <button
-              className="p-2 rounded-lg bg-gray-200 focus:outline-none  w-[376.5px]  ml-4 mr-4"
+              className="p-1 rounded-lg bg-gray-200 focus:outline-none  w-[376.5px]  ml-4 mr-4"
               onClick={toggleIcon}
             >
               <span className="text-gray-600">
@@ -80,73 +81,9 @@ function Home() {
               </span>
             </button>
           </div>
-
           <ChatList />
         </div>
-
-        {/* <header className="flex   justify-start w-full h-[59px]">
-          <div className="flex  " title="Profile Details" role="button">
-            <div className="relative h-[40px] w-[40px] ">
-              <img
-                src="https://pps.whatsapp.net/v/t61.24694-24/300779609_580249773834377_2469441264500027299_n.jpg?stp=dst-jpg_s96x96&amp;ccb=11-4&amp;oh=01_AdS4yOgYbCJ9b_LbW1LUwrS2xqFcMTKGzE_yNVzQy5AGJQ&amp;oe=657ACCCE&amp;_nc_sid=e6ed6c&amp;_nc_cat=105"
-                alt=""
-                className="object-cover w-full h-full rounded-full"
-                draggable="false"
-                style={{ visibility: "visible" }}
-              />
-            </div>
-          </div>
-          <div className="" role="button w-full ">
-            <div className="flex ml-2">
-              <div className="min-h-0 w-[922px] h-[21px]">
-                <span className="text-black">Ibrahim Shafi</span>
-              </div>
-            </div>
-            <div className="ml-2 w-[922px] h-[20px]">
-              <span
-                className=" text-black  py-1 rounded-full text-xs"
-                title="last seen today at 4:01 pm"
-              >
-                last seen today at 4:01 pm
-              </span>
-            </div>
-          </div>
-          <div className="" role="button">
-            <div className="flex items-center p-[8px]">
-              <div className="h-6 w-6">
-                <svg
-                  viewBox="0 0 24 24"
-                  className="h-6 w-6"
-                  preserveAspectRatio="xMidYMid meet"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M15.9,14.3H15L14.7,14c1-1.1,1.6-2.7,1.6-4.3c0-3.7-3-6.7-6.7-6.7S3,6,3,9.7 s3,6.7,6.7,6.7c1.6,0,3.2-0.6,4.3-1.6l0.3,0.3v0.8l5.1,5.1l1.5-1.5L15.9,14.3z M9.7,14.3c-2.6,0-4.6-2.1-4.6-4.6s2.1-4.6,4.6-4.6 s4.6,2.1,4.6,4.6S12.3,14.3,9.7,14.3z"
-                  ></path>
-                </svg>
-              </div>
-            </div>
-          </div>
-
-          <div className="" role="button">
-            <div className="p-[8px]">
-              <div className="h-6 w-6">
-                <svg
-                  viewBox="0 0 24 24"
-                  className="h-6 w-6"
-                  preserveAspectRatio="xMidYMid meet"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M12,7c1.104,0,2-0.896,2-2c0-1.105-0.895-2-2-2c-1.104,0-2,0.894-2,2 C10,6.105,10.895,7,12,7z M12,9c-1.104,0-2,0.894-2,2c0,1.104,0.895,2,2,2c1.104,0,2-0.896,2-2C13.999,9.895,13.104,9,12,9z M12,15 c-1.104,0-2,0.894-2,2c0,1.104,0.895,2,2,2c1.104,0,2-0.896,2-2C13.999,15.894,13.104,15,12,15z"
-                  ></path>
-                </svg>
-              </div>
-            </div>
-          </div>
-        </header> */}
-
-        <HeaderChat /> 
+        <HeaderChat />
       </div>
     </div>
   );

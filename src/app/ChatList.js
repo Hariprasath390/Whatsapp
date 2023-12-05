@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./scrollbar.css"
+import "./scrollbar.css";
 
 const ChatMessage = ({ imageUrl, phoneNumber, message, time }) => (
   <div className="flex w-[430.5px] h-[72px] bg-[#ffffff] mt-[0.5px] border-b border-gray-100">
@@ -19,19 +19,18 @@ const ChatMessage = ({ imageUrl, phoneNumber, message, time }) => (
         <div>
           <span className="text-sm">{phoneNumber}</span>
           <div className="flex-grow">
-            <span className="text-sm">{message}</span>
+            <span className="text-sm text-gray-600 font-sans">{message}</span>
           </div>
         </div>
       </div>
     </div>
     <div className="flex-grow flex justify-end mt-3 mr-3">
-      <span className="text-xs">{time}</span>
+      <span className=" text-gray-600 font-sans text-[12px]">{time}</span>
     </div>
   </div>
 );
 
 const ChatList = () => {
-  // Example data for demonstration
   const chatData = [
     {
       imageUrl:
@@ -138,19 +137,19 @@ const ChatList = () => {
 
   return (
     <div
-  style={{
-    height: '500px',
-    overflowY: 'auto',
-    width: '430.5px',
-    scrollbarWidth: '5px', // For Firefox
-    scrollbarColor: 'transparent transparent', // For Firefox
-  }}
-  className="container bg-white"
->
-  {chatData.map((chat, index) => (
-    <ChatMessage key={index} {...chat} />
-  ))}
-</div>
+      style={{
+        height: "83vh",
+        overflowY: "auto",
+        width: "430.5px",
+        scrollbarWidth: "5px", // For Firefox
+        scrollbarColor: "transparent transparent", // For Firefox
+      }}
+      className="container bg-white"
+    >
+      {chatData.map((chat, index) => (
+        <ChatMessage key={index} {...chat} />
+      ))}
+    </div>
   );
 };
 
