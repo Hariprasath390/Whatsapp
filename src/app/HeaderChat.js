@@ -170,15 +170,124 @@ function HeaderChat() {
           </>
         )}
       </Disclosure>
+      <div className="">
+        <div className="  flex justify-center py-2">
+          <div className="bg-white flex justify-center items-stretch p-1 rounded-md">
+            <p className="text-xs font-sans font-semibold text-gray-600">
+              Wednesday
+            </p>
+          </div>
+        </div>
 
-      <footer class="flex items-center justify-between p-3 bg-gray-200 bottom-0 absolute">
-        <div class="flex items-center space-x-2">
-          <div class="flex items-center space-x-2">
-            <div class="relative">
-              <button class="p-2 rounded-full focus:outline-none">
+        <div
+          tabIndex="-1"
+          className="n5hs2j7m oq31bsqd gx1rr48f qh5tioqs"
+          data-tab="8"
+          role="application"
+        >
+          <div className="  flex pl-14 pb-2">
+            <svg
+              className="h-4 w-4 text-white -mx-2"
+              fill="none"
+              viewBox="0 0 8 13"
+              stroke="currentColor"
+            >
+              <path
+                stroke-opacity="0.13"
+                fill="#0000000"
+                d="M1.533,3.568L8,12.193V1H2.812C1.042,1,0.474,2.156,1.533,3.568z"
+              ></path>
+              <path
+                fill="currentColor"
+                d="M1.533,2.568L8,11.193V0L2.812,0C1.042,0,0.474,1.156,1.533,2.568z"
+              ></path>
+            </svg>
+
+            <div className="bg-white flex flex-col items-stretch p-1 rounded-md">
+              <div className="flex justify-between">
+                <p className="text-xs font-sans font-semibold text-gray-600">
+                  Hi
+                </p>
+                <span className="text-[9px] text-gray-600 pl-2 pt-3">
+                  5:02 pm
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          tabIndex="-1"
+          className="n5hs2j7m oq31bsqd gx1rr48f qh5tioqs"
+          data-tab="8"
+          role="application"
+        >
+          <div className="  flex justify-end pr-14 pb-2">
+            <div className="bg-[#c5e6c1] flex flex-col items-stretch p-1 rounded-md">
+              <div className="flex justify-between">
+                  <p className="text-xs font-semibold font-sans space-x-2">
+                      Thank you for contacting
+                      <a
+                        href="http://MYUNDE.COM"
+                        title="http://MYUNDE.COM"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 font-sans text-xs hover:underline space-x-2 "
+                      >
+                        &nbsp;MYUNDE.COM
+                      </a>
+                      ! Please let us know how we can help you.
+                    </p>
+                <div className="flex items-center justify-end pl-2 pt-3">
+                  <span className="text-[10px] text-gray-600">5:22 pm</span>
+                  <span className="ml-2" data-icon="msg-dblcheck">
+                    <svg
+                      viewBox="0 0 16 11"
+                      height="16"
+                      width="12"
+                      preserveAspectRatio="xMidYMid meet"
+                      fill="none"
+                    >
+                      <title>msg-dblcheck</title>
+                      <path
+                        d="M11.0714 0.652832C10.991 0.585124 10.8894 0.55127 10.7667 0.55127C10.6186 0.55127 10.4916 0.610514 10.3858 0.729004L4.19688 8.36523L1.79112 6.09277C1.7488 6.04622 1.69802 6.01025 1.63877 5.98486C1.57953 5.95947 1.51817 5.94678 1.45469 5.94678C1.32351 5.94678 1.20925 5.99544 1.11192 6.09277L0.800883 6.40381C0.707784 6.49268 0.661235 6.60482 0.661235 6.74023C0.661235 6.87565 0.707784 6.98991 0.800883 7.08301L3.79698 10.0791C3.94509 10.2145 4.11224 10.2822 4.29844 10.2822C4.40424 10.2822 4.5058 10.259 4.60313 10.2124C4.70046 10.1659 4.78086 10.1003 4.84434 10.0156L11.4903 1.59863C11.5623 1.5013 11.5982 1.40186 11.5982 1.30029C11.5982 1.14372 11.5348 1.01888 11.4078 0.925781L11.0714 0.652832ZM8.6212 8.32715C8.43077 8.20866 8.2488 8.09017 8.0753 7.97168C7.99489 7.89128 7.8891 7.85107 7.75791 7.85107C7.6098 7.85107 7.4892 7.90397 7.3961 8.00977L7.10411 8.33984C7.01947 8.43717 6.97715 8.54508 6.97715 8.66357C6.97715 8.79476 7.0237 8.90902 7.1168 9.00635L8.1959 10.0791C8.33132 10.2145 8.49636 10.2822 8.69102 10.2822C8.79681 10.2822 8.89838 10.259 8.99571 10.2124C9.09304 10.1659 9.17556 10.1003 9.24327 10.0156L15.8639 1.62402C15.9358 1.53939 15.9718 1.43994 15.9718 1.32568C15.9718 1.1818 15.9125 1.05697 15.794 0.951172L15.4386 0.678223C15.3582 0.610514 15.2587 0.57666 15.1402 0.57666C14.9964 0.57666 14.8715 0.635905 14.7657 0.754395L8.6212 8.32715Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-0 s8B">
+              <svg
+                viewBox="0 0 8 13"
+                height="13"
+                width="8"
+                class="fill-current text-[#c5e6c1] -mx-[1.9px]"
+              >
+                <title>tail-out</title>
+                <path
+                  opacity="0.13"
+                  d="M5.188,1H0v11.193l6.467-8.625 C7.526,2.156,6.958,1,5.188,1z"
+                ></path>
+                <path
+                  fill="currentColor"
+                  d="M5.188,0H0v11.193l6.467-8.625C7.526,1.156,6.958,0,5.188,0z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer className="flex items-center justify-between p-3 bg-gray-200 bottom-0 absolute">
+        <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2">
+            <div className="relative">
+              <button className="p-2 rounded-full focus:outline-none">
                 <svg
                   viewBox="0 0 24 24"
-                  class="w-6 h-6 text-gray-700 fill-current"
+                  className="w-6 h-6 text-gray-700 fill-current"
                 >
                   <title>attach-menu-plus</title>
                   <path
@@ -189,26 +298,26 @@ function HeaderChat() {
               </button>
             </div>
 
-            <button class="p-2  bg-white focus:outline-none flex items-center gap-4 rounded-md">
+            <button className="p-2  bg-white focus:outline-none flex items-center gap-4 rounded-md">
               <svg
                 viewBox="0 0 24 24"
-                class="w-6 h-6 text-gray-700 fill-current"
+                className="w-6 h-6 text-gray-700 fill-current"
               >
                 <title>smiley</title>
                 <path d="M9.153,11.603c0.795,0,1.439-0.879,1.439-1.962S9.948,7.679,9.153,7.679S7.714,8.558,7.714,9.641S8.358,11.603,9.153,11.603z M5.949,12.965c-0.026-0.307-0.131,5.218,6.063,5.551c6.066-0.25,6.066-5.551,6.066-5.551C12,14.381,5.949,12.965,5.949,12.965z M17.312,14.073c0,0-0.669,1.959-5.051,1.959c-3.505,0-5.388-1.164-5.607-1.959C6.654,14.073,12.566,15.128,17.312,14.073z M11.804,1.011c-6.195,0-10.826,5.022-10.826,11.217s4.826,10.761,11.021,10.761S23.02,18.423,23.02,12.228C23.021,6.033,17.999,1.011,11.804,1.011z M12,21.354c-5.273,0-9.381-3.886-9.381-9.159s3.942-9.548,9.215-9.548s9.548,4.275,9.548,9.548C21.381,17.467,17.273,21.354,12,21.354z M15.108,11.603c0.795,0,1.439-0.879,1.439-1.962s-0.644-1.962-1.439-1.962s-1.439,0.879-1.439,1.962S14.313,11.603,15.108,11.603z"></path>
               </svg>
               <input
                 type="text"
-                class="p-1   rounded focus:outline-none w-[753px]"
+                className="p-1   rounded focus:outline-none w-[753px]"
                 placeholder="Type a message"
               />
             </button>
           </div>
-          <div class="relative">
-            <button class="p-2  rounded-full focus:outline-none">
+          <div className="relative">
+            <button className="p-2  rounded-full focus:outline-none">
               <svg
                 viewBox="0 0 24 24"
-                class="w-6 h-6 text-gray-700 fill-current"
+                className="w-6 h-6 text-gray-700 fill-current"
               >
                 <title>ptt</title>
                 <path d="M11.999,14.942c2.001,0,3.531-1.53,3.531-3.531V4.35c0-2.001-1.53-3.531-3.531-3.531S8.469,2.35,8.469,4.35v7.061C8.469,13.412,9.999,14.942,11.999,14.942z M18.237,11.412c0,3.531-2.942,6.002-6.237,6.002s-6.237-2.471-6.237-6.002H3.761c0,4.001,3.178,7.297,7.061,7.885v3.884h2.354v-3.884c3.884-0.588,7.061-3.884,7.061-7.885L18.237,11.412z"></path>
@@ -216,7 +325,7 @@ function HeaderChat() {
             </button>
           </div>
         </div>
-        <div class="flex items-center space-x-2"></div>
+        <div className="flex items-center space-x-2"></div>
       </footer>
     </div>
   );
