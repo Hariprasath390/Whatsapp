@@ -11,9 +11,12 @@
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
+    "@rsuite/icons": "^1.0.3",
     "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-router-dom": "^6.20.1",
+    "rsuite": "^5.46.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
