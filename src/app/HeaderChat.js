@@ -332,7 +332,7 @@ function HeaderChat() {
     // </div>
 
     
-    <div className="bg-[#e9edef] w-full">
+    <div className="bg-[#e9edef] w-full hidden md:block ">
         <div className="flex flex-col items-center pt-52">
           <div className=" p-4 rounded-full">
             <svg
