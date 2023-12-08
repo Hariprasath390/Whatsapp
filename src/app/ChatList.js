@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./scrollbar.css";
+import HeaderChat from "./HeaderChat";
 
-const ChatMessage = ({ imageUrl, phoneNumber, message, time }) => (
+const ChatMessage = ({ imageUrl, phoneNumber, message, time, onClick }) => (
   <div className="flex w-[430.5px] h-[72px] bg-[#ffffff] mt-[0.5px] border-b border-gray-100">
-    <div className="flex justify-between items-center p-4 mb-1">
+    <div
+      className="flex justify-between items-center p-4 mb-1"
+      onClick={() => {
+        console.log("Chat clicked");
+        onClick && onClick();
+      }}
+    >
       <div className="flex items-center">
         <div className="w-11 h-11 mr-4">
           <img
@@ -135,6 +142,7 @@ const ChatList = () => {
     // Add more data objects as needed
   ];
 
+  const [selectedChat, setSelectedChat] = useState(null);
   return (
     <div
       style={{
@@ -147,8 +155,17 @@ const ChatList = () => {
       className="container bg-white"
     >
       {chatData.map((chat, index) => (
-        <ChatMessage key={index} {...chat} />
+        <ChatMessage
+          key={index}
+          {...chat}
+          onClick={() => {
+            setSelectedChat(chat);
+            console.log("Selected chat:", chat);
+          }}
+        />
       ))}
+
+    
     </div>
   );
 };
