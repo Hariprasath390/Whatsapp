@@ -22,8 +22,8 @@ function Header() {
 
         <div className="flex items-center">
           <div className="flex items-center space-x-4">
-            <div className="_3NdAd transform scale-100 opacity-100">
-              <div className="_3OtEr">
+            <div className=" transform scale-100 opacity-100">
+              <div className="">
                 <div
                   role="button"
                   tabIndex="0"
@@ -44,7 +44,7 @@ function Header() {
                 </div>
               </div>
             </div>
-            <div className="_3OtEr">
+            <div className="">
               <div
                 role="button"
                 tabIndex="0"
@@ -103,7 +103,7 @@ function Header() {
                 </span>
               </div>
             </div>
-            <div className="_3OtEr">
+            <div className="">
               <div
                 role="button"
                 tabIndex="0"
@@ -130,7 +130,7 @@ function Header() {
                 </span>
               </div>
             </div>
-            <div className="_3OtEr">
+            <div className="">
               <div
                 role="button"
                 tabIndex="0"
@@ -154,7 +154,7 @@ function Header() {
                 </span>
               </div>
             </div>
-            <div className="_3OtEr">
+            <div className="">
               <div
                 role="button"
                 tabIndex="0"
@@ -178,7 +178,7 @@ function Header() {
                 </span>
               </div>
             </div>
-            <div className="_3OtEr">
+            <div className="">
               <div
                 role="button"
                 tabIndex="0"
